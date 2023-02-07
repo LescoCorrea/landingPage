@@ -1,0 +1,94 @@
+body{
+  background: #130001 
+}
+
+.avatar{
+    width: 30rem;
+    height: 25rem;
+}
+.avatar1{
+  width: 30rem;
+  height: 25rem;
+  margin-left: 50px;
+}
+
+.categories{
+    background: #7E1102;
+    height: 16.5rem; 
+}
+.section{
+    margin: 3rem;
+}
+.btn-plus{
+    font-size: 12px;
+    background: #7E1102;
+    font-weight: 500;
+    color: whitesmoke;
+}
+.btn-appren{
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+
+@media screen and (max-width: 1028px){
+  
+  .rows{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .avatar1{
+    width: 30rem;
+    height: 25rem;
+    margin-left: 0px;
+  }
+
+  .categories{
+    background: #7E1102;
+    height: 16.5rem; 
+}
+
+}
+
+@media screen and (max-width: 600px){
+  
+  .avatar1{
+    width: 30rem;
+    height: 25rem;
+    margin-left: 0px;
+  }
+
+  .categories{
+    background: #7E1102;
+    height: 16.5rem; 
+ }
+  
+}
+@media screen and (max-width: 450px){
+  
+  .avatar1{
+    width: 30rem;
+    height: 25rem;
+    margin-left: 0px;
+  }
+
+  .categories{
+    background: #7E1102;
+    height: 16.5rem; 
+ }
+ h3{
+  text-align: center;
+ }
+ p{
+   text-align: center;
+ }
+ .btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+  
+}
